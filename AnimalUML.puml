@@ -1,0 +1,10 @@
+@startuml
+abstract class com.mycompany.animalexample.Animal
+annotation java.lang.Override
+class com.mycompany.animalexample.AnimalExample
+class com.mycompany.animalexample.Cat
+interface com.mycompany.animalexample.IAnimal
+com.mycompany.animalexample.Cat --|> com.mycompany.animalexample.Animal
+com.mycompany.animalexample.Cat ..> java.lang.Override
+com.mycompany.animalexample.Cat --|> com.mycompany.animalexample.IAnimal
+@enduml
