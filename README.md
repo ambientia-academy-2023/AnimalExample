@@ -11,6 +11,6 @@ Perii edelliset
 
 ## Diagrammi
 
-Sovelluksen class diagrammi 
+Sovelluksen class diagrammi on seuraava
 <br/>
 <img src="ClassDiagram.png">
